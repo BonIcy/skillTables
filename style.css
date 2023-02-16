@@ -1,4 +1,67 @@
+/* PROPIEDADES DE FUENTE
 
+
+-FAMILIA DE FUENTE:
+    Sintaxis: 	      font-family: [[<nombre de familia> | <familia genérica>],]* [<nombre de familia> | <familia genérica>]
+    Valores posibles: <nombre-de-familia> ||  Cualquier nombre de familia de fuente puede usarse
+    Valor inicial: 	   Determinado por el navegador
+    Se aplica a: 	   Todos los elementos
+    Heredado: 	       Si
+Las familias de fuentes pueden asignarse por un nombre de fuente específica o por una familia de fuentes genérica. Obviamente, si define una fuente específica, no será tan probable de encontrar como una familia de fuente genérica. Puede hacer múltiples asignaciones de familias, y si hace una asignación de fuente específica, debería ser seguida por un nombre de familia genérica en el caso de que la primera selección no se halle presente
+
+
+-ESTILOS DE FUENTE:
+    Sintaxis: 	        font-style: <valor>
+    Valores posibles: 	normal | italic | oblique
+    Valor inicial: 	    normal
+    Se aplica a: 	    Todos los elementos
+    Heredado: 	        Si 
+La propiedad font-style define que la fuente se muestre en una de tres formas: normal, itálica u oblicua 
+
+
+-PESO DE FUENTE:
+    Sintaxis: 	        font-weight: <valor>
+    Valores posibles: 	normal | bold | bolder | lighter | 100 | 200 | 300 | 400 | 500 | 600 | 700 | 800 | 900
+    alor inicial: 	    normal
+    e aplica a: 	    Todos los elementos
+    Heredado: 	        Si
+La propiedad font-weight se usa para especificar el peso de la fuente. Los valores bolder y lighter son relativos al peso de la fuente heredada, mientras que los otros valores son pesos de fuente absolutos.
+
+
+-VARIANTE DE FUENTE:
+    Sintaxis: 	        font-variant: <valor>
+    Valores posibles: 	normal | small-caps
+    Valor inicial: 	    normal
+    Se aplica a: 	    Todos los elementos
+    Heredado: 	        Si
+La propiedad font-variant determina si la fuente se muestra en mayúsculas tipo normal o pequeñas small-caps. Las small-caps se muestran cuando todas las letras de la palabra están en mayúsculas, con caracteres ligeramente más grandes que las minúsculas. Posteriores versiones de CSS pueden soportar variantes adicionales como condensada, expandida, números en small-caps u otras variantes personalizadas.
+
+
+-TAMAÑO DE FUENTE: 
+    Sintaxis: 	        font-size: <tamaño-absoluto> | <tamaño-relativo> | <longitud> | <porcentaje>	
+    Valores posibles:   <tamaño-absoluto>
+                        xx-small | x-small | small | medium | large | x-large | xx-large
+                         <tamaño-relativo>
+                        larger | smaller
+                        <longitud>
+                        <porcentaje> (en relación al elemento padre) 
+    Valor inicial: 	    medium
+    Se aplica a: 	    Todos los elementos
+    Heredado: 	        Si
+
+La propiedad font-size se usa para modificar el tamaño de la fuente mostrada. Las longitudes absolutas (usando unidades como pt y in) deberían usarse racionalmente debido a su poca capacidad de adaptarse a diferentes ambientes de navegación. Las fuentes con longitudes absolutas pueden ser fácilmente muy pequeñas o grandes para un usuario.
+
+
+-FUENTE (FONT):
+Sintaxis: 	        font: <valor>
+Valores posibles: 	[<font-style> || <font-variant> || <font-weight>]? <font-size> [ / <line-height> ]? <font-family>
+Valor inicial: 	    No definido
+Se aplica a: 	    Todos los elementos
+Heredado: 	        Si
+
+La propiedad font puede usarse como una forma rápida para las diferentes propiedades de fuentes, así como para line height. Por ejemplo,
+P { font: italic bold 12pt/14pt Times, serif }
+especifica párrafos con negrita (bold) e itálica (italic), fuente Times o serif con un tamaño de 12 puntos y una altura de línea de 14 puntos.*/
 
 table{
     height: 950px;
