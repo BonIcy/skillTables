@@ -1,0 +1,17 @@
+table{
+    text-align: center;
+    width: 100%;
+}
+.t1 th{
+    width: 175px;
+    border: 2px solid;
+}
+.t1 .xx{
+    width: 25px;
+}
+.t1 .hh{
+    width: 18%;
+}
+.t1 .ee{
+    width: 15%;
+}
