@@ -61,7 +61,10 @@ Heredado: 	        Si
 
 La propiedad font puede usarse como una forma rápida para las diferentes propiedades de fuentes, así como para line height. Por ejemplo,
 P { font: italic bold 12pt/14pt Times, serif }
-especifica párrafos con negrita (bold) e itálica (italic), fuente Times o serif con un tamaño de 12 puntos y una altura de línea de 14 puntos.*/
+especifica párrafos con negrita (bold) e itálica (italic), fuente Times o serif con un tamaño de 12 puntos y una altura de línea de 14 puntos.
+
+
+Y YA, ESO ES LO MAS RELEVANTE Y MAS UTIL QUE PUDE ENCONTRAR:D*/
 
 table{
     height: 950px;
