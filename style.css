@@ -1,25 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
-/* RELLENO Y BORDER 
+/* COLOR Y BACKGROUND
+-COLOR
+    Sintaxis: 	color: <color>
+    Valor inicial: 	Determinado por el navegador
+    Se aplica a: 	Todos los elementos
+    Heredado: 	Si
+Se puede mirar la paleta de colores para escribirlos directamente (ej: blue, red), usar los comandos con # (ej: #fff, #000) y usar el rgb posicionando el cursor sobre el cuadro que contenga el color para aplicarle de manera mas detallado y manual e incluso transparencia
 
--RELLENO (PADDING)
-    Sintaxis: 	        padding: <valor>
-    Valores posibles: 	[ <longitud> | <porcentaje>]{1,4}
-    Valor inicial:     	0
-    Se aplica a: 	    Todos los elementos
-    Heredado: 	        No
-La propiedad padding es una manera rápida de aplicar las propiedades padding-top, padding-right, padding-bottom y padding-left.
-El padding de un elemento es la cantidad de espacio entre el borde y el contenido del elemento. Se dan entre uno y cuatro valores, donde cada valor puede ser una longitud o un porcentaje. Los valores en porcentaje se refieren al ancho del elemento padre. No se permiten los valores negativos.
-Si se dan cuatro valores, se aplican a los rellenos superior, derecho, inferior e izquierdo, respectivamente. Si se da un valor, se aplica a todos los lados. Si se dan dos o tres valores, los valores faltantes se toman del lado opuesto.
-
--BORDER (BORDE)
-    Sintaxis: 	        border: <valor>
-    Valores posibles: 	<border-width> || <border-style> || <color>
-    Valor inicial:     	No definido
-    Se aplica a: 	    Todos los elementos
-    Heredado: 	         No
-La propiedad border es una forma rápida para establecer el ancho, estilo y el color del borde izquierdo de un elemento.
-La propiedad border solo puede establecer todos los cuatro bordes; puede aplicar solo un ancho y estilo de borde. Para dar diferentes valores a los cuatro bordes de un elemento, se deben usar una o más de las propiedades border-top, border-right, border-bottom, border-left, border-color, border-width, border-style, border-top-width, border-right-width, border-bottom-width, o border-left-width.     
+-BACKGROUND 
+    Sintaxis: 	background: <valor>
+    Valores posibles: 	<background-color> || <background-image> || <background-repeat> || <background-attachment> || <background-position>
+    Valor inicial: 	No definido
+    Se aplica a: 	Todos los elementos
+    Heredado: 	No
+La propiedad background es una forma rápida para las propiedades más específicas relacionadas con background.
+Un valor no especificado recibirá el valor inicial.
 */
 
 table{
@@ -30,7 +26,7 @@ table,th,td{
     border: 2px solid rgb(88, 255, 136);
     border-collapse: collapse;
     text-align: center;
-    background: rgba(3, 133, 59, 0.261);
+    background: rgba(3, 133, 59, 0.261); 
     color:rgb(254, 255, 253);
 }
 .xx{
