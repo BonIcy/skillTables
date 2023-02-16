@@ -1,17 +1,27 @@
+
+
 table{
+    height: 950px;
+}
+table,th,td{
+    width: 100;
+    border: 2px solid rgb(88, 255, 136);
+    border-collapse: collapse;
     text-align: center;
-    width: 100%;
+    background: rgba(3, 133, 59, 0.261);
+    color:rgb(254, 255, 253);
 }
-.t1 th{
-    width: 175px;
-    border: 2px solid;
+.xx{
+    width: 3%;
 }
-.t1 .xx{
-    width: 25px;
+.img{
+    position: absolute;
+    z-index: -10;
+    width: 99%;
+    height: 98%;
 }
-.t1 .hh{
-    width: 18%;
-}
-.t1 .ee{
-    width: 15%;
+
+.xx, .x1, .x2, .x3, .x4, #a, #b, #c, #d, #e, #f, #g, #h, #i{
+    background: rgba(10, 92, 41, 0.647);
+    color: rgb(0, 221, 147);
 }
